@@ -55,7 +55,10 @@ namespace SistemaVeterinaria.Entidades
         {
 
         }
-       
+        public void Delete(string dni)
+        {
+
+        }
 
 
 
