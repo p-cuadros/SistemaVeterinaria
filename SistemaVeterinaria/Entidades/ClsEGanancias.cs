@@ -8,11 +8,38 @@ namespace SistemaVeterinaria.Entidades
 {
     class ClsEGanancias
     {
-        public string FechaI { get; set; }
-        public string FechaF { get; set; }
-        public string PrecioTotalV { get; set; }
-        public string PrecioTotalM { get; set; }
-        public string PrecioTotalT { get; set; }
+        public string FechaI { get; private set; }
+        public string FechaF { get; private set; }
+        public string PrecioTotalV { get; private set; }
+        public string PrecioTotalM { get; private set; }
+        public string PrecioTotalT { get; private set; }
+
+
+        public static ClsEGanancias Save()
+        {
+            return new ClsEGanancias()
+            {
+
+            };
+        }
+
+
+        public void Update()
+        {
+
+        }
+
+        public void Search()
+        {
+
+        }
+        public void Delete()
+        {
+
+        }
+
+
+
 
         public Principal.FrmGanancias FrmGanancias
         {

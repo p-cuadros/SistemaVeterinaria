@@ -96,16 +96,23 @@ D:\SistemaVeterinaria\bin\Debug\SistemaVeterinaria.exe.config
 D:\SistemaVeterinaria\bin\Debug\SistemaVeterinaria.exe
 D:\SistemaVeterinaria\bin\Debug\SistemaVeterinaria.pdb
 D:\SistemaVeterinaria\bin\Debug\MaterialSkin.dll
+D:\SistemaVeterinaria\bin\Debug\MySql.Data.dll
 D:\SistemaVeterinaria\bin\Debug\Google.Protobuf.dll
 D:\SistemaVeterinaria\bin\Debug\MySql.Data.xml
+D:\SistemaVeterinaria\obj\Debug\SistemaVeterinaria.csprojResolveAssemblyReference.cache
 D:\SistemaVeterinaria\obj\Debug\SistemaVeterinaria.Principal.FrmAgenda.resources
+D:\SistemaVeterinaria\obj\Debug\SistemaVeterinaria.Principal.FrmBoleta.resources
+D:\SistemaVeterinaria\obj\Debug\SistemaVeterinaria.Principal.FrmEmergencia.resources
 D:\SistemaVeterinaria\obj\Debug\SistemaVeterinaria.Principal.FrmEmpleado.resources
 D:\SistemaVeterinaria\obj\Debug\SistemaVeterinaria.Principal.FrmHistorial.resources
+D:\SistemaVeterinaria\obj\Debug\SistemaVeterinaria.Principal.FrmLogin.resources
 D:\SistemaVeterinaria\obj\Debug\SistemaVeterinaria.Principal.FrmMantenimiento.resources
 D:\SistemaVeterinaria\obj\Debug\SistemaVeterinaria.Principal.FrmMascota.resources
+D:\SistemaVeterinaria\obj\Debug\SistemaVeterinaria.Principal.FrmPProducto.resources
 D:\SistemaVeterinaria\obj\Debug\SistemaVeterinaria.Principal.FrmPrincipal.resources
 D:\SistemaVeterinaria\obj\Debug\SistemaVeterinaria.Principal.FrmClientes.resources
 D:\SistemaVeterinaria\obj\Debug\SistemaVeterinaria.Principal.FrmServicios.resources
+D:\SistemaVeterinaria\obj\Debug\SistemaVeterinaria.Principal.FrmVenta.resources
 D:\SistemaVeterinaria\obj\Debug\SistemaVeterinaria.Properties.Resources.resources
 D:\SistemaVeterinaria\obj\Debug\SistemaVeterinaria.csproj.GenerateResource.Cache
 D:\SistemaVeterinaria\obj\Debug\SistemaVeterinaria.exe
@@ -295,14 +302,3 @@ F:\2018\C# YMSQL\SistemaVeterinaria\obj\Debug\SistemaVeterinaria.csprojAssemblyR
 G:\2018\C# YMSQL\SistemaVeterinaria\obj\Debug\SistemaVeterinaria.csprojAssemblyReference.cache
 G:\2018\C# YMSQL\SistemaVeterinaria\obj\Debug\SistemaVeterinaria.exe
 G:\2018\C# YMSQL\SistemaVeterinaria\obj\Debug\SistemaVeterinaria.pdb
-D:\SistemaVeterinaria\bin\Debug\itextsharp.dll
-D:\SistemaVeterinaria\bin\Debug\itextsharp.xml
-D:\SistemaVeterinaria\obj\Debug\SistemaVeterinaria.csprojAssemblyReference.cache
-D:\SistemaVeterinaria\obj\Debug\SistemaVeterinaria.Principal.FrmGanancias.resources
-D:\SistemaVeterinaria\obj\Debug\SistemaVeterinaria.Principal.FrmLogins.resources
-D:\SistemaVeterinaria\obj\Debug\SistemaVeterinaria.Principal.FrmReportMantenimiento.resources
-D:\SistemaVeterinaria\obj\Debug\SistemaVeterinaria.Principal.FrmReportTratamientos.resources
-D:\SistemaVeterinaria\obj\Debug\SistemaVeterinaria.Principal.FrmReportVacunas.resources
-D:\SistemaVeterinaria\obj\Debug\SistemaVeterinaria.Principal.FrmTratamientos.resources
-D:\SistemaVeterinaria\obj\Debug\SistemaVeterinaria.csproj.CoreCompileInputs.cache
-D:\SistemaVeterinaria\obj\Debug\SistemaVeterinaria.csproj.CopyComplete
