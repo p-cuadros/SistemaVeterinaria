@@ -12,7 +12,7 @@ namespace SistemaVeterinaria.Entidades
         public string Nombres { get;private  set; }
       
         public string Vacuna { get; private set; }
-        public string Detalle { get; private set; }
+        public string Detalle { get; private set; } 
         public string Fecha { get; private set; }
         public string Precio { get; private set; }
 
@@ -20,23 +20,35 @@ namespace SistemaVeterinaria.Entidades
 
 
 
-        public static ClsEServicios Save()
+        public static ClsEServicios Save(string _dni,string _nombres,string _vacuna, string _detalle,string _fecha, string _precio)
         {
             return new ClsEServicios()
             {
+                  
+                Dni = _dni,
+                Nombres = _nombres,
+                Vacuna = _vacuna,
+                Detalle = _detalle,
+                Fecha = _fecha,
+                Precio = _precio,
 
             };
         }
 
 
-        public void Update()
+        public void Update(string _dni, string _nombres, string _vacuna, string _detalle, string _fecha, string _precio)
         {
-
+            Dni = _dni;
+            Nombres = _nombres;
+            Vacuna = _vacuna;
+            Detalle = _detalle;
+            Fecha = _fecha;
+            Precio = _precio;
         }
 
         public void Search()
         {
-
+           
         }
 
 

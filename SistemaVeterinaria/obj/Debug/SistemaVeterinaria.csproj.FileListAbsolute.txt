@@ -302,3 +302,23 @@ F:\2018\C# YMSQL\SistemaVeterinaria\obj\Debug\SistemaVeterinaria.csprojAssemblyR
 G:\2018\C# YMSQL\SistemaVeterinaria\obj\Debug\SistemaVeterinaria.csprojAssemblyReference.cache
 G:\2018\C# YMSQL\SistemaVeterinaria\obj\Debug\SistemaVeterinaria.exe
 G:\2018\C# YMSQL\SistemaVeterinaria\obj\Debug\SistemaVeterinaria.pdb
+E:\Risther2020\CICLO VII\Calidad y Pruebas de Software\U1\SistemaVeterinaria\SistemaVeterinaria\obj\Debug\SistemaVeterinaria.csprojAssemblyReference.cache
+E:\Risther2020\CICLO VII\Calidad y Pruebas de Software\U1\SistemaVeterinaria\SistemaVeterinaria\obj\Debug\SistemaVeterinaria.Principal.FrmAgenda.resources
+E:\Risther2020\CICLO VII\Calidad y Pruebas de Software\U1\SistemaVeterinaria\SistemaVeterinaria\obj\Debug\SistemaVeterinaria.Principal.FrmGanancias.resources
+E:\Risther2020\CICLO VII\Calidad y Pruebas de Software\U1\SistemaVeterinaria\SistemaVeterinaria\obj\Debug\SistemaVeterinaria.Principal.FrmLogins.resources
+E:\Risther2020\CICLO VII\Calidad y Pruebas de Software\U1\SistemaVeterinaria\SistemaVeterinaria\obj\Debug\SistemaVeterinaria.Principal.FrmReportMantenimiento.resources
+E:\Risther2020\CICLO VII\Calidad y Pruebas de Software\U1\SistemaVeterinaria\SistemaVeterinaria\obj\Debug\SistemaVeterinaria.Principal.FrmReportTratamientos.resources
+E:\Risther2020\CICLO VII\Calidad y Pruebas de Software\U1\SistemaVeterinaria\SistemaVeterinaria\obj\Debug\SistemaVeterinaria.Principal.FrmReportVacunas.resources
+E:\Risther2020\CICLO VII\Calidad y Pruebas de Software\U1\SistemaVeterinaria\SistemaVeterinaria\obj\Debug\SistemaVeterinaria.Principal.FrmTratamientos.resources
+E:\Risther2020\CICLO VII\Calidad y Pruebas de Software\U1\SistemaVeterinaria\SistemaVeterinaria\obj\Debug\SistemaVeterinaria.Principal.FrmEmpleado.resources
+E:\Risther2020\CICLO VII\Calidad y Pruebas de Software\U1\SistemaVeterinaria\SistemaVeterinaria\obj\Debug\SistemaVeterinaria.Principal.FrmHistorial.resources
+E:\Risther2020\CICLO VII\Calidad y Pruebas de Software\U1\SistemaVeterinaria\SistemaVeterinaria\obj\Debug\SistemaVeterinaria.Principal.FrmMantenimiento.resources
+E:\Risther2020\CICLO VII\Calidad y Pruebas de Software\U1\SistemaVeterinaria\SistemaVeterinaria\obj\Debug\SistemaVeterinaria.Principal.FrmMascota.resources
+E:\Risther2020\CICLO VII\Calidad y Pruebas de Software\U1\SistemaVeterinaria\SistemaVeterinaria\obj\Debug\SistemaVeterinaria.Principal.FrmPrincipal.resources
+E:\Risther2020\CICLO VII\Calidad y Pruebas de Software\U1\SistemaVeterinaria\SistemaVeterinaria\obj\Debug\SistemaVeterinaria.Principal.FrmClientes.resources
+E:\Risther2020\CICLO VII\Calidad y Pruebas de Software\U1\SistemaVeterinaria\SistemaVeterinaria\obj\Debug\SistemaVeterinaria.Principal.FrmServicios.resources
+E:\Risther2020\CICLO VII\Calidad y Pruebas de Software\U1\SistemaVeterinaria\SistemaVeterinaria\obj\Debug\SistemaVeterinaria.Properties.Resources.resources
+E:\Risther2020\CICLO VII\Calidad y Pruebas de Software\U1\SistemaVeterinaria\SistemaVeterinaria\obj\Debug\SistemaVeterinaria.csproj.GenerateResource.cache
+E:\Risther2020\CICLO VII\Calidad y Pruebas de Software\U1\SistemaVeterinaria\SistemaVeterinaria\obj\Debug\SistemaVeterinaria.csproj.CoreCompileInputs.cache
+E:\Risther2020\CICLO VII\Calidad y Pruebas de Software\U1\SistemaVeterinaria\SistemaVeterinaria\obj\Debug\SistemaVeterinaria.exe
+E:\Risther2020\CICLO VII\Calidad y Pruebas de Software\U1\SistemaVeterinaria\SistemaVeterinaria\obj\Debug\SistemaVeterinaria.pdb
