@@ -18,19 +18,39 @@ namespace SistemaVeterinaria.Entidades
         public string Actividad { get; private set; }
 
 
+        //public static Cliente Registrar(string _nombre)
+        //{
+        //    return new Cliente(){
+        //        NombreCliente = _nombre
+        //    };
+        //}
 
-        public static ClsEAgenda Save()
+
+        public static ClsEAgenda Save(string _dni, string _nombre, string _direccion, string _telefono, string _fecha, string _hora, string _actividad)
         {
             return new ClsEAgenda()
             {
-              
+                Dni = _dni,
+                Nombres = _nombre,
+                Direccion = _direccion,
+                Telefono = _telefono,
+                Fecha = _fecha,
+                Hora = _hora,
+                Actividad = _actividad
             };
-        }
-
-
-        public void Update()
+        }    
+        //public void ModificarNombre(string _nombre)
+        //{
+        //    NombreCliente = _nombre;
+        //}     
+        public void Update(string _nombre,string _direccion,string _telefono,string _fecha,string _hora,string _actividad)
         {
-
+            Nombres = _nombre;
+            Direccion = _direccion;
+            Telefono = _telefono;
+            Fecha = _fecha;
+            Hora = _hora;
+            Actividad = _actividad;
         }
 
         public void Search()
@@ -38,6 +58,7 @@ namespace SistemaVeterinaria.Entidades
 
         }
        
+
 
 
 
