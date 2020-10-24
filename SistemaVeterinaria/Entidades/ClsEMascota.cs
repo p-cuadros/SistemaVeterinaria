@@ -8,14 +8,45 @@ namespace SistemaVeterinaria.Entidades
 {
     class ClsEMascota
     {
-        public string Dni { get; set; }
-        public string Nombres { get; set; }
-        public string Especie { get; set; }
-        public string Raza { get; set; }
-        public string Peso { get; set; }
-        public string Sexo { get; set; }
-        public string Nacimiento { get; set; }
-        public string Estado { get; set; }
+        public string Dni { get; private set; }
+        public string Nombres { get; private set; }
+        public string Especie { get; private set; }
+        public string Raza { get; private set; }
+        public string Peso { get; private set; }
+        public string Sexo { get; private set; }
+        public string Nacimiento { get; private set; }
+        public string Estado { get; private set; }
+
+
+
+
+        public static ClsEMascota Save()
+        {
+            return new ClsEMascota()
+            {
+
+            };
+        }
+
+
+        public void Update()
+        {
+
+        }
+
+        public void Search()
+        {
+
+        }
+
+
+
+
+
+
+
+
+
 
         public Principal.FrmMascota FrmMascota
         {

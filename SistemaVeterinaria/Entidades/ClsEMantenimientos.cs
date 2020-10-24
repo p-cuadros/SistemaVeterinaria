@@ -8,13 +8,41 @@ namespace SistemaVeterinaria.Entidades
 {
     class ClsEMantenimientos
     {
-        public string Dni { get; set; }
-        public string Nombre { get; set; }
+        public string Dni { get; private set; }
+        public string Nombre { get; private  set; }
       
-        public string Tipo { get; set; }
-        public string Detalle { get; set; }
-        public string Fecha { get; set; }
-        public string Precio { get; set; }
+        public string Tipo { get; private set; }
+        public string Detalle { get; private set; }
+        public string Fecha { get; private set; }
+        public string Precio { get; private set; }
+
+
+        public static ClsEMantenimientos Save()
+        {
+            return new ClsEMantenimientos()
+            {
+
+            };
+        }
+
+
+        public void Update()
+        {
+
+        }
+
+        public void Search()
+        {
+
+        }
+
+
+
+
+
+
+
+
 
         public Principal.FrmMantenimiento FrmMantenimiento
         {
