@@ -1,0 +1,17 @@
+D:\SistemaVeterinaria\.vs\SistemaVeterinaria\lut\0\i\SistemaVeterinaria\Debug\SistemaVeterinaria.Principal.FrmAgenda.resources
+D:\SistemaVeterinaria\.vs\SistemaVeterinaria\lut\0\i\SistemaVeterinaria\Debug\SistemaVeterinaria.Principal.FrmGanancias.resources
+D:\SistemaVeterinaria\.vs\SistemaVeterinaria\lut\0\i\SistemaVeterinaria\Debug\SistemaVeterinaria.Principal.FrmLogins.resources
+D:\SistemaVeterinaria\.vs\SistemaVeterinaria\lut\0\i\SistemaVeterinaria\Debug\SistemaVeterinaria.Principal.FrmReportMantenimiento.resources
+D:\SistemaVeterinaria\.vs\SistemaVeterinaria\lut\0\i\SistemaVeterinaria\Debug\SistemaVeterinaria.Principal.FrmReportTratamientos.resources
+D:\SistemaVeterinaria\.vs\SistemaVeterinaria\lut\0\i\SistemaVeterinaria\Debug\SistemaVeterinaria.Principal.FrmReportVacunas.resources
+D:\SistemaVeterinaria\.vs\SistemaVeterinaria\lut\0\i\SistemaVeterinaria\Debug\SistemaVeterinaria.Principal.FrmTratamientos.resources
+D:\SistemaVeterinaria\.vs\SistemaVeterinaria\lut\0\i\SistemaVeterinaria\Debug\SistemaVeterinaria.Principal.FrmEmpleado.resources
+D:\SistemaVeterinaria\.vs\SistemaVeterinaria\lut\0\i\SistemaVeterinaria\Debug\SistemaVeterinaria.Principal.FrmHistorial.resources
+D:\SistemaVeterinaria\.vs\SistemaVeterinaria\lut\0\i\SistemaVeterinaria\Debug\SistemaVeterinaria.Principal.FrmMantenimiento.resources
+D:\SistemaVeterinaria\.vs\SistemaVeterinaria\lut\0\i\SistemaVeterinaria\Debug\SistemaVeterinaria.Principal.FrmMascota.resources
+D:\SistemaVeterinaria\.vs\SistemaVeterinaria\lut\0\i\SistemaVeterinaria\Debug\SistemaVeterinaria.Principal.FrmPrincipal.resources
+D:\SistemaVeterinaria\.vs\SistemaVeterinaria\lut\0\i\SistemaVeterinaria\Debug\SistemaVeterinaria.Principal.FrmClientes.resources
+D:\SistemaVeterinaria\.vs\SistemaVeterinaria\lut\0\i\SistemaVeterinaria\Debug\SistemaVeterinaria.Principal.FrmServicios.resources
+D:\SistemaVeterinaria\.vs\SistemaVeterinaria\lut\0\i\SistemaVeterinaria\Debug\SistemaVeterinaria.Properties.Resources.resources
+D:\SistemaVeterinaria\.vs\SistemaVeterinaria\lut\0\i\SistemaVeterinaria\Debug\SistemaVeterinaria.csproj.GenerateResource.cache
+D:\SistemaVeterinaria\.vs\SistemaVeterinaria\lut\0\i\SistemaVeterinaria\Debug\SistemaVeterinaria.csproj.CoreCompileInputs.cache
