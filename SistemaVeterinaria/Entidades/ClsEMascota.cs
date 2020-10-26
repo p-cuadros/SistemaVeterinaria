@@ -20,19 +20,35 @@ namespace SistemaVeterinaria.Entidades
 
 
 
-        public static ClsEMascota Save()
+        public static ClsEMascota Save(string _dni, string _nombre, string _especie, string _raza, string _peso, string _sexo, string _nacimiento, string _estado)
         {
             return new ClsEMascota()
             {
 
-            };
+                Dni = _dni,
+                Nombres = _nombre,
+                Especie = _especie,
+                Raza = _raza,
+                Peso = _peso,
+                Sexo = _sexo,
+                Nacimiento = _nacimiento,
+                Estado = _estado
+
+             };
         }
 
 
-        public void Update()
+        public void Update(string _dni, string _nombre, string _especie, string _raza, string _peso, string _sexo, string _nacimiento, string _estado)
         {
-
-        }
+            Dni = _dni;
+            Nombres = _nombre;
+            Especie = _especie;
+            Raza = _raza;
+            Peso = _peso;
+            Sexo = _sexo;
+            Nacimiento = _nacimiento;
+            Estado = _estado;
+    }
 
         public void Search()
         {
