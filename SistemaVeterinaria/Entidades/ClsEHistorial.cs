@@ -14,20 +14,45 @@ namespace SistemaVeterinaria.Entidades
         public string Direccion { get;  set; }
         public string Telefono { get;  set; }
 
+         /*public static ClsEAgenda Save(string _dni, string _nombre, string _direccion, string _telefono, string _fecha, string _hora, string _actividad)
+        {
+            return new ClsEAgenda()
+            {
+                Dni = _dni,
+                Nombres = _nombre,
+                Direccion = _direccion,
+                Telefono = _telefono,
+                Fecha = _fecha,
+                Hora = _hora,
+                Actividad = _actividad
+            };
+        } */
 
-
-        public static ClsEHistorial Save()
+        public static ClsEHistorial Save(string _dni, string _nombres, string _direccion, string _telefono)
         {
             return new ClsEHistorial()
             {
-
+                Dni = _dni,
+                Nombres = _nombres,
+                Direccion = _direccion,
+                Telefono = _telefono
             };
         }
 
-
-        public void Update()
+        /*public void Update(string _nombre,string _direccion,string _telefono,string _fecha,string _hora,string _actividad)
         {
-
+            Nombres = _nombre;
+            Direccion = _direccion;
+            Telefono = _telefono;
+            Fecha = _fecha;
+            Hora = _hora;
+            Actividad = _actividad;
+        }*/
+        public void Update( string _nombres, string _direccion, string _telefono)
+        {
+            Nombres = _nombres;
+            Direccion = _direccion;
+            Telefono = _telefono;
         }
 
         public void Search()
