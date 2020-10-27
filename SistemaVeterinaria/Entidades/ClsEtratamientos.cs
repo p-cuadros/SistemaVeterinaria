@@ -8,14 +8,14 @@ namespace SistemaVeterinaria.Entidades
 {
     class ClsEtratamientos
     {
-        public string Dni { get; private set; }
-        public string Nombre { get; private set; }
-        public string Tratamientos { get; private set; }
-        public string  Detalle{ get; private set; }
-        public string Receta { get; private set; }
-        public string Fecha { get;private  set; }
-        public string Cita { get; private set; }
-        public string Precio { get; private set; }
+        public string Dni { get;  set; }
+        public string Nombre { get;  set; }
+        public string Tratamientos { get;  set; }
+        public string  Detalle{ get;  set; }
+        public string Receta { get;  set; }
+        public string Fecha { get;  set; }
+        public string Cita { get;  set; }
+        public string Precio { get;  set; }
 
 
 

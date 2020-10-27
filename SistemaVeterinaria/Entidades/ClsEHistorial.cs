@@ -8,11 +8,11 @@ namespace SistemaVeterinaria.Entidades
 {
     class ClsEHistorial
     {
-        public string Dni { get; private set; }
-        public string Nombres { get; private set; }
+        public string Dni { get;  set; }
+        public string Nombres { get;  set; }
 
-        public string Direccion { get; private set; }
-        public string Telefono { get; private set; }
+        public string Direccion { get;  set; }
+        public string Telefono { get;  set; }
 
 
 

@@ -8,14 +8,14 @@ namespace SistemaVeterinaria.Entidades
 {
     class ClsEEmpleados
     {
-        public string Codigo { get; private set; }
-        public string Nombre { get; private set; }
-        public string Apellidos { get; private set; }
-        public string Direccion { get; private set; }
-        public string Email { get; private set; }
-        public string Cargo { get; private set; }
-        public string Clave { get; private set; }
-        public string Estado { get;private set; }
+        public string Codigo { get;  set; }
+        public string Nombre { get;  set; }
+        public string Apellidos { get;  set; }
+        public string Direccion { get;  set; }
+        public string Email { get;  set; }
+        public string Cargo { get;  set; }
+        public string Clave { get;  set; }
+        public string Estado { get; set; }
 
 
         public static ClsEEmpleados Save()
