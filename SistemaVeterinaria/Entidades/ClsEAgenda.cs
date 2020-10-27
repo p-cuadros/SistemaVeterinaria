@@ -8,14 +8,14 @@ namespace SistemaVeterinaria.Entidades
 {
     class ClsEAgenda
     {
-        public string Codigo { get;  set; }
-        public string Dni { get;  set; }
-        public string Nombres { get;  set; }
-        public string Direccion { get;  set; }
-        public string Telefono { get;  set; }
-        public string Fecha { get;  set; }
-        public string Hora { get;  set; }
-        public string Actividad { get;  set; }
+        public string Codigo { get; private set; }
+        public string Dni { get; private set; }
+        public string Nombres { get; private set; }
+        public string Direccion { get; private set; }
+        public string Telefono { get; private set; }
+        public string Fecha { get; private set; }
+        public string Hora { get; private set; }
+        public string Actividad { get; private set; }
 
 
         //public static Cliente Registrar(string _nombre)
