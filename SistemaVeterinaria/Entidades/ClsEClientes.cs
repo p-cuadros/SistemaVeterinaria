@@ -45,9 +45,24 @@ namespace SistemaVeterinaria.Entidades
             };
         }
        
-
-        public void  Update(string _dni, string _nombre, string _apellido, string _telefono, string _email, string _direccion)
+        /*public void Update(string _nombre,string _direccion,string _telefono,string _fecha,string _hora,string _actividad)
         {
+            Nombres = _nombre;
+            Direccion = _direccion;
+            Telefono = _telefono;
+            Fecha = _fecha;
+            Hora = _hora;
+            Actividad = _actividad;
+        }*/
+
+        public void  Update(string _nombre, string _apellido, string _telefono, string _email, string _direccion)
+        {
+            Nombre = _nombre;
+            Apellido = _apellido;
+            Telefono = _telefono;
+            Email = _email;
+            Direccion = _direccion;
+
            
         }
 
