@@ -116,7 +116,7 @@ namespace SistemaVeterinaria.Principal
                 ClsNClientes ojbjNC = new ClsNClientes();
                 objEC.Dni = txtDni.Text;
                 DataTable dtEmp = new DataTable();
-                dtEmp = ojbjNC.MtdBuscarMySql(objEC);
+                dtEmp = ClsNClientes.MtdBuscarMySql(objEC);
                 if (dtEmp.Rows.Count > 0)
                 {
                     DataRow Fila = dtEmp.Rows[0];

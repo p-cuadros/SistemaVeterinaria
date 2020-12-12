@@ -10,7 +10,7 @@ using SistemaVeterinaria.Entidades;
 
 namespace SistemaVeterinaria.Negocios
 {
-    class ClsNHistorial
+ public   class ClsNHistorial
     {
         public Principal.FrmHistorial FrmHistorial
         {
@@ -20,7 +20,7 @@ namespace SistemaVeterinaria.Negocios
             }
         }
 
-        public DataTable MtdBuscarMascota(ClsEHistorial Obj)
+        public static DataTable MtdBuscarMascota(ClsEHistorial Obj)
         {
             ClsNConexion conn = new ClsNConexion();
             DataTable result = new DataTable();
@@ -38,7 +38,7 @@ namespace SistemaVeterinaria.Negocios
             return result;
         }
 
-        public DataTable MtdBuscarVacunas(ClsEHistorial Obj)
+        public static DataTable MtdBuscarVacunas(ClsEHistorial Obj)
         {
             ClsNConexion conn = new ClsNConexion();
             DataTable result = new DataTable();
@@ -57,7 +57,7 @@ namespace SistemaVeterinaria.Negocios
 
             return result;
         }
-        public DataTable MtdBuscarMantenimiento(ClsEHistorial Obj)
+        public static DataTable MtdBuscarMantenimiento(ClsEHistorial Obj)
         {
             ClsNConexion conn = new ClsNConexion();
             DataTable result = new DataTable();
@@ -77,7 +77,7 @@ namespace SistemaVeterinaria.Negocios
             return result;
         }
 
-        public DataTable MtdBuscarTratamiento(ClsEHistorial Obj)
+        public static DataTable MtdBuscarTratamiento(ClsEHistorial Obj)
         {
             ClsNConexion conn = new ClsNConexion();
             DataTable result = new DataTable();

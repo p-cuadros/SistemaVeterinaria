@@ -28,7 +28,7 @@ namespace SistemaVeterinaria.Principal
             ClsNHistorial objN = new ClsNHistorial();
             objE.Dni = FrmHistorial.ayudni;
             objE.Nombres = FrmHistorial.ayunombre;
-            dgvMantenimiento.DataSource = objN.MtdBuscarMantenimiento(objE);
+            dgvMantenimiento.DataSource = ClsNHistorial.MtdBuscarMantenimiento(objE);
             dgvMantenimiento.AutoResizeColumns();
         }
 

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SistemaVeterinaria.Entidades
 {
-    class ClsEHistorial
+  public  class ClsEHistorial
     {
         public string Dni { get;  set; }
         public string Nombres { get;  set; }

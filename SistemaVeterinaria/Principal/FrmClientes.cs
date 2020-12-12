@@ -65,7 +65,7 @@ namespace SistemaVeterinaria.Principal
                 objEcli.Email = txtEmail.Text;
                 objEcli.Telefono = txtTelefono.Text;
                 objEcli.Direccion = txtDireccion.Text;
-                ojbjNcli.MtdAgregarClienteMysql(objEcli);
+                ClsNClientes.MtdAgregarClienteMysql(objEcli);
                 MessageBox.Show("Cliente Agregado");
                 MtdLimpiarCajas();
                 listar();
@@ -93,7 +93,7 @@ namespace SistemaVeterinaria.Principal
                 objEcli.Email = txtEmail.Text;
                 objEcli.Telefono = txtTelefono.Text;
                 objEcli.Direccion = txtDireccion.Text;
-                ojbjNcli.MtdMoficarMysql(objEcli);
+                ClsNClientes.MtdMoficarMysql(objEcli);
                 MessageBox.Show("Cliente Modificado");
                 MtdLimpiarCajas();
                 listar();
@@ -114,7 +114,7 @@ namespace SistemaVeterinaria.Principal
                 ClsEClientes objEcli = new ClsEClientes();
                 ClsNClientes ojbjNcli = new ClsNClientes();
                 objEcli.Dni = txtDni.Text;
-                ojbjNcli.MtdEliminarMySql(objEcli);
+                ClsNClientes.MtdEliminarMySql(objEcli);
                 MessageBox.Show("Datos Eliminados correctamente...");
                 listar();
             }
@@ -122,7 +122,7 @@ namespace SistemaVeterinaria.Principal
         public void listar()
         {
             ClsNClientes objcar = new ClsNClientes();
-            dgvClientes.DataSource = objcar.MtdListarTodo();
+            dgvClientes.DataSource = ClsNClientes.MtdListarTodo();
         }
         private void btnListar_Click(object sender, EventArgs e)
         {
@@ -134,7 +134,7 @@ namespace SistemaVeterinaria.Principal
             ClsEClientes objEcli = new ClsEClientes();
             ClsNClientes ojbjNcli = new ClsNClientes();
             objEcli.Dni = textBuscar.Text;
-            dgvClientes.DataSource = ojbjNcli.MtdBuscarMySql(objEcli);
+            dgvClientes.DataSource = ClsNClientes.MtdBuscarMySql(objEcli);
             MessageBox.Show("Datos Buscados correctamente...");
 
 

@@ -66,8 +66,8 @@ namespace SistemaVeterinaria.Principal
                 objE.Dni = txtDni.Text;
                 objEC.Dni = txtDni.Text;
                 DataTable dtEmp = new DataTable();
-                dtEmp = ojbjNC.MtdBuscarMySql(objEC);
-                dgvMascotas.DataSource = ojbjN.MtdBuscarMascota(objE);
+                dtEmp = ClsNClientes.MtdBuscarMySql(objEC);
+                dgvMascotas.DataSource = ClsNHistorial.MtdBuscarMascota(objE);
                 if (dtEmp.Rows.Count > 0)
                 {
                     DataRow Fila = dtEmp.Rows[0];

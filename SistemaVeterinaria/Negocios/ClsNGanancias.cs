@@ -9,7 +9,7 @@ using MySql.Data.MySqlClient;
 using SistemaVeterinaria.Entidades;
 namespace SistemaVeterinaria.Negocios
 {
-    class ClsNGanancias
+     class ClsNGanancias
     {
         public Principal.FrmGanancias FrmGanancias
         {

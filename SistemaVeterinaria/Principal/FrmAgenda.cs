@@ -65,7 +65,7 @@ namespace SistemaVeterinaria.Principal
                 objEAge.Fecha = Dtpfecha.Text;
                 objEAge.Hora = cbHora.Text + ":" + cbMin.Text + ":" + cbSeg.Text;
                 objEAge.Actividad = txtActividad.Text;
-                ojbjNAge.MtdAgregarMySql(objEAge);
+                ClsNAgenda.MtdAgregarMySql(objEAge);
                 MessageBox.Show("Agenda Agregado");
                 MtdLimpiarCajas();
                 listar();
@@ -91,7 +91,7 @@ namespace SistemaVeterinaria.Principal
                 objEAge.Fecha = Dtpfecha.Text;
                 objEAge.Hora = cbHora.Text + ":" + cbMin.Text + ":" + cbSeg.Text;
                 objEAge.Actividad = txtActividad.Text;
-                ojbjNAge.MtdMoficarMySql(objEAge);
+                ClsNAgenda.MtdMoficarMySql(objEAge);
                 MessageBox.Show("Agenda Modificada");
                 MtdLimpiarCajas();
                 listar();
@@ -101,13 +101,13 @@ namespace SistemaVeterinaria.Principal
         public void listar()
         {
             ClsNAgenda objcar = new ClsNAgenda();
-            dgvAgenda.DataSource = objcar.MtdListarTodo();
+            dgvAgenda.DataSource = ClsNAgenda.MtdListarTodo();
             dgvAgenda.AutoResizeColumns();
         }
         private void btnListar_Click(object sender, EventArgs e)
         {
             ClsNAgenda objcar = new ClsNAgenda();
-            dgvAgenda.DataSource = objcar.MtdListarTodo();
+            dgvAgenda.DataSource = ClsNAgenda.MtdListarTodo();
             dgvAgenda.AutoResizeColumns();
         }
 
@@ -120,7 +120,7 @@ namespace SistemaVeterinaria.Principal
                 ClsNClientes ojbjNC = new ClsNClientes();
                 objEC.Dni = txtDni.Text;
                 DataTable dtEmp = new DataTable();
-                dtEmp = ojbjNC.MtdBuscarMySql(objEC);
+                dtEmp = ClsNClientes.MtdBuscarMySql(objEC);
                 if (dtEmp.Rows.Count > 0)
                 {
                     DataRow Fila = dtEmp.Rows[0];
@@ -139,7 +139,7 @@ namespace SistemaVeterinaria.Principal
                 ClsEAgenda objEAge = new ClsEAgenda();
                 ClsNAgenda ojbjNAge = new ClsNAgenda();
                 objEAge.Fecha = dtpBuscar.Text;
-                dgvAgenda.DataSource = ojbjNAge.MtdBuscarMySql(objEAge);
+                dgvAgenda.DataSource = ClsNAgenda.MtdBuscarMySql(objEAge);
                 dgvAgenda.AutoResizeColumns();
         }
 

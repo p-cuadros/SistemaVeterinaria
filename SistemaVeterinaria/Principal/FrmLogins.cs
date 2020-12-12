@@ -55,7 +55,7 @@ namespace SistemaVeterinaria.Principal
                 objE.Clave = txtClave.Text;
                 objE.Estado = "TRUE";
                 DataTable dtEmp = new DataTable();
-                dtEmp = objN.MtdVAlidarLogin(objE);
+                dtEmp = ClsNEmpleados.MtdVAlidarLogin(objE);
                 if (dtEmp.Rows.Count > 0)
                 {
                     DataRow Fila = dtEmp.Rows[0];

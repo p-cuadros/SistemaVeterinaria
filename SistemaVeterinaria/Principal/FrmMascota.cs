@@ -156,7 +156,7 @@ namespace SistemaVeterinaria.Principal
                 ClsNClientes ojbjNC = new ClsNClientes();
                 objEC.Dni = txtDni.Text;
                 DataTable dtEmp = new DataTable();
-                dtEmp = ojbjNC.MtdBuscarMySql(objEC);
+                dtEmp = ClsNClientes.MtdBuscarMySql(objEC);
                 if (dtEmp.Rows.Count > 0)
                 {
                     DataRow Fila = dtEmp.Rows[0];
@@ -175,7 +175,7 @@ namespace SistemaVeterinaria.Principal
                 ClsEHistorial objE = new ClsEHistorial();
                 ClsNHistorial ojbjN = new ClsNHistorial();
                 objE.Dni = txtDni.Text;
-                dgvMascotas.DataSource = ojbjN.MtdBuscarMascota(objE);
+                dgvMascotas.DataSource = ClsNHistorial.MtdBuscarMascota(objE);
 
             }
         }

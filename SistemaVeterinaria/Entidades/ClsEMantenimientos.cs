@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SistemaVeterinaria.Entidades
 {
-    class ClsEMantenimientos
+  public  class ClsEMantenimientos
     {
         public string Dni { get;  set; }
         public string Nombre { get;   set; }

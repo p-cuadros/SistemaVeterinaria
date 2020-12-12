@@ -64,11 +64,11 @@ namespace SistemaVeterinaria.Principal
                 objEMan.Detalle = TxtDetalles.Text;
                 objEMan.Fecha = dateFecha.Text;
                 objEMan.Precio = txtSoles.Text;
-                ojbjNMan.MtdAgregarMySql(objEMan);
+                ClsNMantenimiento.MtdAgregarMySql(objEMan);
                 MessageBox.Show("Mantenimiento Agregado");
                 MtdLimpiarCajas();
                 ClsNMantenimiento objNMan = new ClsNMantenimiento();
-                dgvMascota.DataSource = objNMan.MtdListarTodo();
+                dgvMascota.DataSource = ClsNMantenimiento.MtdListarTodo();
                 MtdLimpiarCajas();
             }
 
@@ -90,18 +90,18 @@ namespace SistemaVeterinaria.Principal
                 objEMan.Detalle = TxtDetalles.Text;
                 objEMan.Fecha = dateFecha.Text;
                 objEMan.Precio = txtSoles.Text;
-                ojbjNMan.MtdMoficarMySql(objEMan);
+                ClsNMantenimiento.MtdMoficarMySql(objEMan);
                 MessageBox.Show("Mantenimiento Modificado");
                 MtdLimpiarCajas();
                 ClsNMantenimiento objNMan = new ClsNMantenimiento();
-                dgvMascota.DataSource = objNMan.MtdListarTodo();
+                dgvMascota.DataSource = ClsNMantenimiento.MtdListarTodo();
             }
         }
 
         private void btnlistar_Click(object sender, EventArgs e)
         {
             ClsNMantenimiento objNMan = new ClsNMantenimiento();
-            dgvMascota.DataSource = objNMan.MtdListarTodo();
+            dgvMascota.DataSource = ClsNMantenimiento.MtdListarTodo();
         }
 
         private void btnBuscar_Click(object sender, EventArgs e)
@@ -113,7 +113,7 @@ namespace SistemaVeterinaria.Principal
                 ClsNClientes ojbjNC = new ClsNClientes();
                 objEC.Dni = txtDni.Text;
                 DataTable dtEmp = new DataTable();
-                dtEmp = ojbjNC.MtdBuscarMySql(objEC);
+                dtEmp = ClsNClientes.MtdBuscarMySql(objEC);
                 if (dtEmp.Rows.Count > 0)
                 {
                     DataRow Fila = dtEmp.Rows[0];
@@ -157,7 +157,7 @@ namespace SistemaVeterinaria.Principal
                 ClsEMantenimientos objEC = new ClsEMantenimientos();
                 ClsNMantenimiento ojbjNC = new ClsNMantenimiento();
                 objEC.Dni = txtBuscar.Text;
-                dgvMascota.DataSource = ojbjNC.MtdBuscarMySql(objEC);
+                dgvMascota.DataSource = ClsNMantenimiento.MtdBuscarMySql(objEC);
             }
         }
         private void txtDni_KeyPress(object sender, KeyPressEventArgs e)

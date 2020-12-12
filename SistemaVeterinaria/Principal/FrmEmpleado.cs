@@ -78,7 +78,7 @@ namespace SistemaVeterinaria.Principal
                     Estado = "FALSE";
                 }
                 objEemp.Estado = Estado;
-                objNemp.MtdAgregarMySql(objEemp);
+                ClsNEmpleados.MtdAgregarMySql(objEemp);
                 MessageBox.Show("Datos Guardados correctamente...");
                 MtdLimpiarCajas();
                 listar();
@@ -116,7 +116,7 @@ namespace SistemaVeterinaria.Principal
                     Estado = "FALSE";
                 }
                 objEemp.Estado = Estado;
-                objNemp.MtdMoficarMySql(objEemp);
+                ClsNEmpleados.MtdMoficarMySql(objEemp);
                 MessageBox.Show("Datos Modificados correctamente...");
                 MtdLimpiarCajas();
                 listar();
@@ -125,7 +125,7 @@ namespace SistemaVeterinaria.Principal
         public void listar()
         {
             ClsNEmpleados objN = new ClsNEmpleados();
-            dgvEmpleado.DataSource = objN.MtdListarTodo();
+            dgvEmpleado.DataSource = ClsNEmpleados.MtdListarTodo();
         }
         private void btnListar_Click(object sender, EventArgs e)
         {
@@ -137,7 +137,7 @@ namespace SistemaVeterinaria.Principal
             ClsEEmpleados objEemp = new ClsEEmpleados();
             ClsNEmpleados objNemp = new ClsNEmpleados();
             objEemp.Codigo = txtBuscar.Text;
-            dgvEmpleado.DataSource = objNemp.MtdBuscarMySql(objEemp);
+            dgvEmpleado.DataSource = ClsNEmpleados.MtdBuscarMySql(objEemp);
             MessageBox.Show("Datos Buscados correctamente...");
         }
 

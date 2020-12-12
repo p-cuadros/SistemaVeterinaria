@@ -10,7 +10,7 @@ using SistemaVeterinaria.Entidades;
 
 namespace SistemaVeterinaria.Negocios
 {
-    class ClsNMantenimiento
+ public   class ClsNMantenimiento
     {
         public Principal.FrmMantenimiento FrmMantenimiento
         {
@@ -20,7 +20,7 @@ namespace SistemaVeterinaria.Negocios
             }
         }
 
-        public DataTable MtdListarTodo()
+        public static DataTable MtdListarTodo()
         {
             ClsNConexion conn = new ClsNConexion();
             DataTable result = new DataTable();
@@ -36,7 +36,7 @@ namespace SistemaVeterinaria.Negocios
             return result;
         }
 
-        public Boolean MtdAgregarMySql(ClsEMantenimientos clsCar)
+        public static Boolean MtdAgregarMySql(ClsEMantenimientos clsCar)
         {
             try
             {
@@ -71,7 +71,7 @@ namespace SistemaVeterinaria.Negocios
                 throw ex;
             }
         }
-        public Boolean MtdMoficarMySql(ClsEMantenimientos clsCar)
+        public static Boolean MtdMoficarMySql(ClsEMantenimientos clsCar)
         {
             try
             {
@@ -107,7 +107,7 @@ namespace SistemaVeterinaria.Negocios
             }
         }
        
-        public DataTable MtdBuscarMySql(ClsEMantenimientos clsCar)
+        public static DataTable MtdBuscarMySql(ClsEMantenimientos clsCar)
         {
             ClsNConexion conn = new ClsNConexion();
             DataTable result = new DataTable();
